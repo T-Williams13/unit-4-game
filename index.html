@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Crystal Game</title>
+    <!-- links: reset.css, bootstrap, javascript, and jQuery -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!--Javascript-->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+
+<body background="assets/images/pirate_treasure____by_miggs69.jpg">
+    <!-- Number to guess
+    wins 
+    losses
+    your score
+ -->
+    <h1 class = "text">Number to Guess:
+        <Span id="number-to-guess" class="text"></Span>
+    </h1>
+    <div id="message" class = "text"></div>
+    <h2 class = "text">Wins:
+        <Span id="wins" class = "text"></Span>
+    </h2>
+    <h2 class = "text">Losses:
+        <Span id="losses" class = "text"></Span>
+    </h2>
+    <h2 class = "text">Your Score:
+        <Span id="your-score" class = "text"></Span>
+    </h2>
+
+    <div id="crystals" class="container">
+        <div class="row">
+            <div class=".col-md-3">
+                <img src="assets/images/purple crystal.jpeg" class="purple-crystal crystal" div class=".col-md-3">
+                <img src="assets/images/images-1.jpg" class="blue-crystal crystal" div class=".col-md-3">
+                <img src="assets/images/images-2.jpg" class="green-crystal crystal" div class=".col-md-3">
+                <img src="assets/images/images.jpg" class="clear-crystal crystal" /div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- User gets a random number between 19 and 120.
+    There are 4 crystals, each with arandom value between 1 and 12 attatched. 
+    User presses the crystals and the value of that crystal is added to "your score".
+If the your score value matches the randomly generated number between 19 and 120, a "you won!" pops up, wins increases and your score, crystal values and random number resets.
+If the score goes over the randomly generated number, a "you lost!" pops up, the losses increases by 1 and everything else resets.-->
+
+</body>
+
+</html>
